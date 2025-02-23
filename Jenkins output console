@@ -1,0 +1,33 @@
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+NUnit Adapter 4.2.0.0: Test execution started
+Running all tests in /var/lib/jenkins/workspace/Horizons-Exam_23_02_VK@2/Horizons.Tests.Integration/bin/Debug/net8.0/Horizons.Tests.Integration.dll
+   NUnit3TestExecutor discovered 2 of 2 NUnit test cases using Current Discovery mode, Non-Explicit run
+NUnit Adapter 4.2.0.0: Test execution started
+Running all tests in /var/lib/jenkins/workspace/Horizons-Exam_23_02_VK@2/Horizons.Tests.Unit/bin/Debug/net8.0/Horizons.Tests.Unit.dll
+   NUnit3TestExecutor discovered 4 of 4 NUnit test cases using Current Discovery mode, Non-Explicit run
+  Passed AddDestination_ShouldInsertDestinationIntoDatabase [3 s]
+NUnit Adapter 4.2.0.0: Test execution complete
+  Passed EditDestination_ShouldUpdateDestinationInDatabase [221 ms]
+
+Test Run Successful.
+Total tests: 2
+     Passed: 2
+ Total time: 7.9329 Seconds
+  Passed Add_Get_ShouldReturnViewWithTerrains [2 s]
+NUnit Adapter 4.2.0.0: Test execution complete
+  Passed Add_Post_ShouldRedirectToIndex_OnValidModel [239 ms]
+  Passed AddToFavorites_ShouldRedirectToIndex_WhenDestinationIsAdded [175 ms]
+  Passed Edit_Get_ShouldReturnViewWithCorrectModel_WhenDestinationExists [45 ms]
+
+Test Run Successful.
+Total tests: 4
+     Passed: 4
+ Total time: 6.8752 Seconds
+     1>Done Building Project "/var/lib/jenkins/workspace/Horizons-Exam_23_02_VK@2/Horizons.sln" (VSTest target(s)).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:13.18
